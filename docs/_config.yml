@@ -1,4 +1,4 @@
 theme: jekyll-theme-hacker
 title: [Powershell download scripts]
 description: [Some scripts for downloading files using powershell]
-show_downloads: false
+show_downloads: true

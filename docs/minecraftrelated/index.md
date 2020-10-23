@@ -42,3 +42,4 @@ New-Item -Path $file2 -ItemType File
 Set-Content -Path $file2 -Value 'java -Xmx1024M -Xms1024M -jar server.jar nogui'
 java -Xmx1024M -Xms1024M -jar server.jar nogui
 ```
+[Base scripts](https://xiaopi0.github.io/powershelldownloadscripts)

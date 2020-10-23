@@ -1,4 +1,4 @@
-# minecraftrelated
+# Minecraft Related
 ## Ask for filename and if it's equal to server.jar run it as a minecraft server -_- BitsTransfer - minecraft. Code:
 ```powershell
 $url = Read-Host -Prompt 'input link'

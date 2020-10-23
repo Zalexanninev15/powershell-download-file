@@ -1,5 +1,5 @@
 # minecraftrelated
-## Ask for filename and if it's equal to server.jar run it as a minecraft server -- BitsTransfer - minecraft. Code:
+## Ask for filename and if it's equal to server.jar run it as a minecraft server -_- BitsTransfer - minecraft. Code:
 ```powershell
 $url = Read-Host -Prompt 'input link'
 $output = Read-Host -Prompt 'input destinationfolder'
@@ -22,7 +22,7 @@ if($name -eq 'server.jar'){
     java -Xmx1024M -Xms1024M -jar server.jar nogui
 }
 ```
-## Always run as a minecraft server -- get_a_normal_minecraft_server_easily - BitsTransfer. Code:
+## Always run as a minecraft server -_- get_a_normal_minecraft_server_easily - BitsTransfer. Code:
 ```powershell
 $url = 'https://launcher.mojang.com/v1/objects/f02f4473dbf152c23d7d484952121db0b36698cb/server.jar'
 $output = Read-Host -Prompt 'input destinationfolder(remember every folder has to exist already)'

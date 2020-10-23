@@ -1,6 +1,3 @@
-# powershelldownloadscripts
-scripts for downloading files with powershell
-
 ## Invoke-WebRequest
 This method uses Invoke-WebRequest to download files. Code:
  ```powershell

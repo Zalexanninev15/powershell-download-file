@@ -1,8 +1,4 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Xiaopi0/powershelldownloadscripts)
-
-# powershelldownloadscripts
-scripts for downloading files with powershell
-
+# PDS
 ## Invoke-WebRequest
 This method uses Invoke-WebRequest to download files. Code:
  ```powershell
@@ -37,3 +33,6 @@ Start-BitsTransfer -Source $url -Destination $output
 
 Write-Output "Time taken: $((Get-Date).Subtract($start_time).Seconds) second(s)"
 ```
+[Minecraft Related Powershell Download Scripts](https://xiaopi0.github.io/powershelldownloadscripts/minecraftrelated)
+
+[Home](https://xiaopi0.github.io)

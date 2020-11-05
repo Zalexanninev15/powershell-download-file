@@ -36,4 +36,7 @@ $file = $output + '\eula.txt'
 $file2 = $output + '\Start.cmd'
 New-Item -Path $file2 -ItemType File
 Set-Content -Path $file2 -Value 'java -Xmx1024M -Xms1024M -jar server.jar nogui'
+$file3 = $output + '\README.txt'
+New-Item -Path $file3 -ItemType File
+Set-Content -Path $file3 -Value 'Thanks For Using This Script.`nWhen You Want To Stop The Minecraft Server Type stop in the console.'
 java -Xmx1024M -Xms1024M -jar server.jar nogui

@@ -35,4 +35,4 @@ Write-Output "Time taken: $((Get-Date).Subtract($start_time).Seconds) second(s)"
 ```
 [Minecraft Related Powershell Download Scripts](https://xiaopi0.github.io/powershelldownloadscripts/minecraftrelated)
 
-[Home](https://xiaopi0.github.io)
+[Home](https://shadepi.github.io)

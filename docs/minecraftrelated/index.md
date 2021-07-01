@@ -24,8 +24,8 @@ if($name -eq 'server.jar'){
 ```
 ## Always run as a minecraft server -_- get_a_normal_minecraft_server_easily - BitsTransfer. Code:
 ```powershell
-$version = Read-Host -Prompt 'input the minecraft version you want your server to be(Ex. 1.16.3, 1.12.2, 1.13 Etc.(Supports from 1.12.2 and up)): '
-$output = Read-Host -Prompt 'input destinationfolder(every folder has to exist already): '
+$version = Read-Host -Prompt 'input the minecraft version you want your server to be(Ex. 1.16.3, 1.12.2, 1.13 Etc.(Supports from 1.12.2 and up))'
+$output = Read-Host -Prompt 'input destinationfolder(every folder has to exist already)'
 $start_time = Get-Date
 
 switch($version)
@@ -48,6 +48,7 @@ switch($version)
     '1.16.3'{$url = 'https://launcher.mojang.com/v1/objects/f02f4473dbf152c23d7d484952121db0b36698cb/server.jar'}
     '1.16.4'{$url = 'https://launcher.mojang.com/v1/objects/35139deedbd5182953cf1caa23835da59ca3d7cd/server.jar'}
     '1.16.5'{$url = 'https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar'}
+    '1.17'{$url = 'https://launcher.mojang.com/v1/objects/0a269b5f2c5b93b1712d0f5dc43b6182b9ab254e/server.jar'}
     default{Write-Output "You need to input a valid version, please restart the script to do so"}
 }
 

@@ -23,6 +23,7 @@ switch($version)
     '1.16.4'{$url = 'https://launcher.mojang.com/v1/objects/35139deedbd5182953cf1caa23835da59ca3d7cd/server.jar'}
     '1.16.5'{$url = 'https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar'}
     '1.17'{$url = 'https://launcher.mojang.com/v1/objects/0a269b5f2c5b93b1712d0f5dc43b6182b9ab254e/server.jar'}
+    '1.17.1'{$url = 'https://launcher.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar'}
     default{Write-Output "You need to input a valid version, please restart the script to do so"}
 }
 

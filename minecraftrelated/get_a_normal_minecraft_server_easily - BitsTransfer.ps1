@@ -34,7 +34,7 @@ Start-BitsTransfer -Source $url -Destination $output
 
 Write-Output "Time taken: $((Get-Date).Subtract($start_time).Seconds) second(s)"
 
-cd $output
+Set-Location $output
 java -Xmx1024M -Xms1024M -jar server.jar nogui | Out-Null
 $file = $output + '\eula.txt'
 ((Get-Content -path $file -Raw) -replace 'false','true') | Set-Content -Path $file

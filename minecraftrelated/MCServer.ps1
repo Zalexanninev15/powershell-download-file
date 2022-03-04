@@ -26,6 +26,7 @@ switch($version)
     '1.17.1'{$url = 'https://launcher.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar'}
     '1.18'{$url = 'https://launcher.mojang.com/v1/objects/3cf24a8694aca6267883b17d934efacc5e44440d/server.jar'}
     '1.18.1'{$url = 'https://launcher.mojang.com/v1/objects/125e5adf40c659fd3bce3e66e67a16bb49ecc1b9/server.jar'}
+    '1.18.2'{$url = 'https://launcher.mojang.com/v1/objects/c8f83c5655308435b3dcf03c06d9fe8740a77469/server.jar'}
     default{Write-Output "You need to input a valid version, please restart the script to do so"}
 }
 
@@ -43,6 +44,6 @@ New-Item -Path $file2 -ItemType File
 Set-Content -Path $file2 -Value 'java -Xmx1024M -Xms1024M -jar server.jar nogui'
 $file3 = $output + '\README.txt'
 New-Item -Path $file3 -ItemType File
-Set-Content -Path $file3 -Value 'Thanks For Using This Script. When You Want To Stop The Minecraft Server Type stop in the console.'
-Write-Output "Thanks For Using This Script. When You Want To Stop The Minecraft Server Type stop in the console."
+Set-Content -Path $file3 -Value 'Thanks for using this script. When you want to stop the Minecraft server type stop in the console.'
+Write-Output "Thanks for using this script. When you want to stop the Minecraft server type stop in the console."
 java -Xmx1024M -Xms1024M -jar server.jar nogui

@@ -1,5 +1,11 @@
 $version = Read-Host -Prompt 'input the minecraft version you want your server to be(Ex. 1.16.3, 1.12.2, 1.13 Etc.(Supports from 1.12.2 and up))'
-$output = Read-Host -Prompt 'input destinationfolder(every folder has to exist already)'
+$output = Read-Host -Prompt 'input destinationfolder'
+try {
+    mkdir $output
+}
+catch {
+    "Output folder already exists."
+}
 $start_time = Get-Date
 
 switch($version)

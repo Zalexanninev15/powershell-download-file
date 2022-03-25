@@ -6,6 +6,7 @@ while (1 -lt 2) {
         $output = Read-Host -Prompt 'input destinationfolder'
         try {
             mkdir $output
+            Write-Output "Output folder created."
         }
         catch {
             "Output folder already exists."

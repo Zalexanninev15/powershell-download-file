@@ -1,5 +1,5 @@
 while (1 -lt 2) {
-    $aggree_mc_eula = Read-Host -Prompt 'Please agree to the MINECRAFT END USER LICENSE AGREEMENT, which is located here https://account.mojang.com/documents/minecraft_eula before continuing. [y/n]'
+    $aggree_mc_eula = Read-Host -Prompt 'Please agree to the MINECRAFT END USER LICENSE AGREEMENT, which is located at https://account.mojang.com/documents/minecraft_eula before continuing. [y/n]'
     
     if ($aggree_mc_eula -eq 'y') {
         $version = Read-Host -Prompt 'input the minecraft version you want your server to be(Ex. 1.16.3, 1.12.2, 1.13 Etc.(Supports from 1.12.2 and up))'
